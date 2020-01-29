@@ -1,0 +1,69 @@
+.main {
+  background: black url("background.jpeg") no-repeat center center;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headers {
+  color: white;
+}
+
+.theButton {
+  display: flex;
+  justify-content: center;
+}
+
+.divs {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+}
+
+.picA {
+  padding: 10px;
+  background: url("firpic.jpeg");
+  width: 382px;
+  height: 200px;
+  background-repeat: no-repeat;
+  
+}
+
+.picB{
+  padding: 10px;
+  background: url("firpic.jpeg");
+  width: 382px;
+  height: 200px;
+  background-repeat: no-repeat;
+  order:2;
+}
+
+.form {
+  padding: 10px;
+  background: url("firpic.jpeg");
+  width: 382px;
+  height: 200px;
+  background-repeat: no-repeat;
+  order: 2;
+}
+
+@media(max-width: 768px) {
+  .form {
+    order: 3;
+  }
+}
+
+h6 {
+  text-align: center;
+}
+
+.arcaffe {
+  width: 219px;
+  min-height: 68px;
+  background-image: url("‏‏arcaffe.jpeg");
+}
